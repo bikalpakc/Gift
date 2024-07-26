@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <style>
+        body {
+            /* font-family: Arial, sans-serif;
+            background-color: #f0f0f0; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            /* background-color: #fff; */
+            padding: 20px;
+            /* border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        }
+
+        button {
+            /* font-size: 16px; */
+            padding: 10px 20px;
+            /* cursor: pointer;
+            border: 1px solid #333;
+            background-color: #fff; */
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="song">
+        <source src="music.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+
+        });
+    </script>
+    <!-- <audio controls autoplay muted src="music.mp3"></audio> -->
+    <!-- <audio src="music.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio> -->
+    <script
+        type="text/javascript">setTimeout(function () { document.getElementById("my_audio").play(); console.log('your audio is started just now'); }, 3000)</script>
+    <div class="container">
+        <p>Hi Miss Bliss, Please Double Click the button below.</p>
+        <button onclick="location.href='flower.html'">Double Click here</button>
+    </div>
+</body>
+
+</html>
